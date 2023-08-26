@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyposażenie Warsztatów Samochodowych</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">O firmie</a></li>
+                <li><a href="#products">Produkty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#news">Aktualności</a></li> <!-- Dodana sekcja Aktualności -->
+                <li><a href="#offer">Oferta</a></li> <!-- Dodana sekcja Oferta -->
+                <li><a href="#partners">Partnerzy</a></li> <!-- Dodana sekcja Partnerzy -->
+                <li><a href="#privacy-policy">Polityka prywatności</a></li> <!-- Dodana sekcja Polityka prywatności -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Wyposażenie Warsztatów Samochodowych</h1>
+        <p>Oferta wysokiej jakości narzędzi i urządzeń do warsztatów samochodowych.</p>
+        <a href="#contact" class="cta-button">Skontaktuj się z nami</a>
+    </section>
+
+    <section id="about">
+        <h2>O firmie</h2>
+        <p>Tutaj możesz umieścić krótki opis firmy, jej historii i misji.</p>
+    </section>
+
+    <section id="products">
+        <h2>Produkty</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Produkt 1">
+            <h3>Narzędzie 1</h3>
+            <p>Opis narzędzia 1.</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produkt 2">
+            <h3>Narzędzie 2</h3>
+            <p>Opis narzędzia 2.</p>
+        </div>
+        <!-- Dodaj więcej produktów -->
+    </section>
+
+    <section id="news">
+        <h2>Aktualności</h2>
+        <p>Tutaj możesz umieszczać najnowsze aktualności dotyczące firmy lub branży.</p>
+    </section>
+
+    <section id="offer">
+        <h2>Oferta</h2>
+        <p>Tutaj możesz przedstawić swoją ofertę produktów i usług.</p>
+    </section>
+
+    <section id="partners">
+        <h2>Partnerzy</h2>
+        <p>Prezentacja partnerów lub współpracowników firmy.</p>
+    </section>
+
+    <section id="privacy-policy">
+        <h2>Polityka prywatności</h2>
+        <p>Informacje dotyczące polityki prywatności i ochrony danych.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Imię i nazwisko" required>
+            <input type="email" name="email" placeholder="Adres e-mail" required>
+            <textarea name="message" placeholder="Wiadomość" required></textarea>
+            <input type="submit" value="Wyślij">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2021 Wyposażenie Warsztatów Samochodowych. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
